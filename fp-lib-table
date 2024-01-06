@@ -10,4 +10,5 @@
   (lib (name "DS3231SN")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DS3231SN")(options "")(descr ""))
   (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCad-SSD1306-128x64/library/SSD1306.pretty")(options "")(descr ""))
   (lib (name "SmartFarm")(type "KiCad")(uri "/home/anton/Projects/SmartFarm")(options "")(descr ""))
+  (lib (name "3362P-1-103")(type "KiCad")(uri "${KIPRJMOD}/Libraries/3362P-1-103")(options "")(descr ""))
 )
