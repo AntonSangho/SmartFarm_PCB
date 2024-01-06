@@ -173,12 +173,23 @@
       ],
       "track_widths": [
         0.0,
-        0.25
+        0.1,
+        0.15,
+        0.35,
+        0.5
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.35
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.75
         }
       ],
       "zones_allow_external_fillets": false
@@ -457,8 +468,8 @@
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
+        "track_width": 0.35,
+        "via_diameter": 0.9,
         "via_drill": 0.4,
         "wire_width": 6
       }
