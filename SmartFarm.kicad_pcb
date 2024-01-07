@@ -973,7 +973,7 @@
     (property "ki_keywords" "screw terminal")
     (path "/e2137fad-636a-4957-9828-2ff20f3f855f")
     (attr through_hole)
-    (fp_text reference "J5" (at 3.5 -4.46 45) (layer "F.SilkS")
+    (fp_text reference "J5" (at 10.298742 -2.421931 45) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 50bda851-3762-4d93-8178-a79848dd0c93)
     )
@@ -3312,7 +3312,7 @@
 
   (footprint "SmartFarm:DataPi_logo" (layer "B.Cu")
     (tstamp 9209c686-584f-4af9-8ae2-167bbd5e9eb0)
-    (at 120.005621 117.592958 45)
+    (at 118.2 118.2 45)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0 45) (layer "B.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
@@ -4322,13 +4322,25 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 9b156fde-c984-4e58-a958-daef99b401c0))
   (gr_arc (start 70 150) (mid 93.431458 93.431458) (end 150 70)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp de7a22c6-4f05-4dc8-8545-edd944f8af26))
-  (gr_text "C" (at 144.1 83.7) (layer "F.SilkS") (tstamp 000d6840-99fd-4e12-9e7f-ac4f8af7719a)
+  (gr_text "https://github.com/microschool-kr/Microschool-DataPi-SmartFarm" (at 148.1 123.5 270) (layer "B.SilkS") (tstamp 310865e5-5751-4ecd-9060-1fa69137042f)
+    (effects (font (size 1 1) (thickness 0.25) bold) (justify left bottom mirror))
+  )
+  (gr_text "SmartFarm Ver0_1" (at 79.4 147.7 180) (layer "B.SilkS") (tstamp 486d11e9-b768-45ed-a348-3e5a3fb68d08)
+    (effects (font (size 1.5 1.5) (thickness 0.25) bold) (justify left bottom mirror))
+  )
+  (gr_text "RTC \nDisplay \nTemperature/Humidity \nWaterproof Temperature \nNeopixel \nFAN \nBuzzer " (at 85.2 104.6 225) (layer "B.SilkS") (tstamp 4adec9e1-3ad5-4988-aa99-57902b4a3203)
+    (effects (font (size 1.5 1.5) (thickness 0.375) bold) (justify left bottom mirror))
+  )
+  (gr_text "C" (at 144 83.7) (layer "F.SilkS") (tstamp 000d6840-99fd-4e12-9e7f-ac4f8af7719a)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
+  )
+  (gr_text "X" (at 101.8 149) (layer "F.SilkS") (tstamp 0d28ffe8-a1ac-49fb-ba1f-d56efd3547b3)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "GND\n" (at 78.9 127.7) (layer "F.SilkS") (tstamp 186e3389-5b5a-4136-ad65-19f960182c5d)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "3V3" (at 82.3 127.7) (layer "F.SilkS") (tstamp 18701722-d67b-4a63-9285-2daf15c9b006)
+  (gr_text "3V3" (at 82.400952 127.7) (layer "F.SilkS") (tstamp 18701722-d67b-4a63-9285-2daf15c9b006)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "GND\n" (at 103.2 140.3) (layer "F.SilkS") (tstamp 2414d8f1-e6b1-45d9-9278-e851c530f4de)
@@ -4340,76 +4352,94 @@
   (gr_text "SDA" (at 95.2 137.7) (layer "F.SilkS") (tstamp 2bbd7248-4640-4056-8e6d-18b20ff69271)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "SCL" (at 98.2 114.6) (layer "F.SilkS") (tstamp 3478c00f-95e3-4cec-8b6f-91ae5654d609)
+  (gr_text "SCL" (at 97.9 120.3) (layer "F.SilkS") (tstamp 3478c00f-95e3-4cec-8b6f-91ae5654d609)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
+  )
+  (gr_text "DI" (at 115.2 109 -135) (layer "F.SilkS") (tstamp 35ea606f-1e84-49f1-b0a4-2f1637fbb932)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "+" (at 126.4 141.2) (layer "F.SilkS") (tstamp 37004e23-db52-47b8-926f-7422427dd1f4)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "SDA\n\n" (at 85.4 129.31) (layer "F.SilkS") (tstamp 396a7da0-7d66-4381-8749-f667035e460a)
+  (gr_text "SDA\n" (at 85.61619 127.7) (layer "F.SilkS") (tstamp 396a7da0-7d66-4381-8749-f667035e460a)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "GND\n" (at 86.3 148.99) (layer "F.SilkS") (tstamp 43814e9e-a5ea-41b7-b618-799114d2db62)
+  (gr_text "GND\n" (at 87.1 149) (layer "F.SilkS") (tstamp 43814e9e-a5ea-41b7-b618-799114d2db62)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "+5V" (at 78.2 132.8 225) (layer "F.SilkS") (tstamp 4ff9d27a-3672-4e40-b37b-b02167088381)
+  (gr_text "X" (at 93.5 127.7) (layer "F.SilkS") (tstamp 578edf73-b6a2-4201-a4e7-e61c3f3920dd)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "+" (at 141.9 99.4) (layer "F.SilkS") (tstamp 5d661fc6-8a27-47c3-a90c-57c15ad93cbb)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "3V3" (at 91.9 114.6) (layer "F.SilkS") (tstamp 6d976daa-3432-4cba-9156-88f624c2db86)
+  (gr_text "GND\n" (at 84.4 128.7 -140) (layer "F.SilkS") (tstamp 6ceb2e22-2c26-4a02-a519-ca7caa4cc29e)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
+  )
+  (gr_text "3V3" (at 91.6 120.3) (layer "F.SilkS") (tstamp 6d976daa-3432-4cba-9156-88f624c2db86)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
+  )
+  (gr_text "3V3" (at 113.634264 110.565737 -135) (layer "F.SilkS") (tstamp 752f6995-c6e0-49d3-9b8c-f18c8c4fcd51)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
+  )
+  (gr_text " DIN" (at 81.93533 130.7 220) (layer "F.SilkS") (tstamp 7a36083e-8a5a-4da7-98a2-3eb2d6373030)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "VSYS" (at 133.2 74.3) (layer "F.SilkS") (tstamp 89385caa-89c5-4824-b376-550c547fa547)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "+5V" (at 129.8 82.3 225) (layer "F.SilkS") (tstamp 90ebcbbf-beed-460a-b2aa-867c9d9da6d0)
+  (gr_text "  VSYS" (at 135.664671 77.9 219) (layer "F.SilkS") (tstamp 90ebcbbf-beed-460a-b2aa-867c9d9da6d0)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "SCL\n" (at 99 139.9) (layer "F.SilkS") (tstamp 94f78eed-60e1-4d18-b7c2-eac31a5fcc76)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "GND\n" (at 137.8 75.7 225) (layer "F.SilkS") (tstamp 98ca5a03-1206-4a12-9114-e89ec3cd5f63)
+  (gr_text "GND\n" (at 140.16467 74.2 220) (layer "F.SilkS") (tstamp 98ca5a03-1206-4a12-9114-e89ec3cd5f63)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "SDA\n\n" (at 95.9 150.6) (layer "F.SilkS") (tstamp a8b6abee-9311-4444-9a63-9b853bd62d28)
+  (gr_text "SDA" (at 97.091428 149) (layer "F.SilkS") (tstamp a8b6abee-9311-4444-9a63-9b853bd62d28)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "SCL" (at 88.5 127.7) (layer "F.SilkS") (tstamp aaa83592-4845-4f3a-8f85-1ba9f8fb2b8c)
+  (gr_text "SCL" (at 88.879047 127.7) (layer "F.SilkS") (tstamp aaa83592-4845-4f3a-8f85-1ba9f8fb2b8c)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "SDA" (at 101.2 114.6) (layer "F.SilkS") (tstamp b0a34b33-61e3-4f64-b34c-07071b432fea)
+  (gr_text "SDA" (at 100.9 120.3) (layer "F.SilkS") (tstamp b0a34b33-61e3-4f64-b34c-07071b432fea)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "+" (at 99.1 96.4 45) (layer "F.SilkS") (tstamp b1fbfc96-0ffe-4b12-99b4-1207900c5703)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "B\n" (at 145.7 83.7) (layer "F.SilkS") (tstamp b674789d-d842-4b16-871f-4ac031cbc629)
+  (gr_text "B\n" (at 145.6 83.7) (layer "F.SilkS") (tstamp b674789d-d842-4b16-871f-4ac031cbc629)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "3V3" (at 89.7 148.99) (layer "F.SilkS") (tstamp b78016b6-98a1-4cff-9074-cb6c37c90929)
+  (gr_text "3V3" (at 90.620952 149) (layer "F.SilkS") (tstamp b78016b6-98a1-4cff-9074-cb6c37c90929)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
   (gr_text "-" (at 142 89.4) (layer "F.SilkS") (tstamp b78072ce-3040-430f-b5f3-0ebe4b910783)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "SCL" (at 92.8 148.99) (layer "F.SilkS") (tstamp bcdb17fb-edf2-4665-a171-3034177daf18)
+  (gr_text "SCL" (at 93.85619 149) (layer "F.SilkS") (tstamp bcdb17fb-edf2-4665-a171-3034177daf18)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "DIN" (at 80.7 130.4 225) (layer "F.SilkS") (tstamp c1aea501-3787-4335-a489-b9328f7eae2d)
+  (gr_text " DIN " (at 137.7 76.2 220) (layer "F.SilkS") (tstamp d475187a-2c5e-4b95-8251-d9647a672183)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "DIN" (at 135.1 78 225) (layer "F.SilkS") (tstamp d475187a-2c5e-4b95-8251-d9647a672183)
+  (gr_text "GND" (at 117.876904 106.323096 -135) (layer "F.SilkS") (tstamp dd36d0c8-5b1b-46a2-aefa-1ceef3e1214f)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "GND\n" (at 95 114.6) (layer "F.SilkS") (tstamp e38a02d1-6612-42fb-bb94-e128594dd435)
+  (gr_text "GND\n" (at 94.7 120.3) (layer "F.SilkS") (tstamp e38a02d1-6612-42fb-bb94-e128594dd435)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "GND\n" (at 83.5 127.9 225) (layer "F.SilkS") (tstamp e3e13e26-b854-4af2-9492-e969d6a12ede)
+  (gr_text "X" (at 92.094285 127.7) (layer "F.SilkS") (tstamp ef493082-6db1-4090-b221-fc78f2fb06cb)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "E\n" (at 147.3 83.7) (layer "F.SilkS") (tstamp f6d96ebb-c94a-4dda-9ba4-04efd616d695)
+  (gr_text "  VSYS" (at 79.900001 132.4 219) (layer "F.SilkS") (tstamp efc0b6ee-a587-4258-8332-2e46f75c0704)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
+  )
+  (gr_text "X" (at 100.374285 149) (layer "F.SilkS") (tstamp f6b7066c-82c0-43c6-8376-d1bc8b38d7bf)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
+  )
+  (gr_text "E\n" (at 147.2 83.7) (layer "F.SilkS") (tstamp f6d96ebb-c94a-4dda-9ba4-04efd616d695)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
 
@@ -12744,6 +12774,62 @@
     (members
       0d822c87-e3a1-4ff7-871e-06a66775d0cf
       52377931-8839-4c9b-a3f7-57357925b31b
+    )
+  )
+  (group "" (id 1084edde-f3f1-4d8c-898d-2b8c7fcc1b30)
+    (members
+      0d28ffe8-a1ac-49fb-ba1f-d56efd3547b3
+      43814e9e-a5ea-41b7-b618-799114d2db62
+      a8b6abee-9311-4444-9a63-9b853bd62d28
+      b78016b6-98a1-4cff-9074-cb6c37c90929
+      bcdb17fb-edf2-4665-a171-3034177daf18
+      f6b7066c-82c0-43c6-8376-d1bc8b38d7bf
+    )
+  )
+  (group "" (id 2b3e1401-4ae9-4c5d-8342-5986a1d60f79)
+    (members
+      90ebcbbf-beed-460a-b2aa-867c9d9da6d0
+      98ca5a03-1206-4a12-9114-e89ec3cd5f63
+      d475187a-2c5e-4b95-8251-d9647a672183
+    )
+  )
+  (group "" (id 2be72e8b-e996-4030-86d0-95d42d1815b6)
+    (members
+      000d6840-99fd-4e12-9e7f-ac4f8af7719a
+      b674789d-d842-4b16-871f-4ac031cbc629
+      f6d96ebb-c94a-4dda-9ba4-04efd616d695
+    )
+  )
+  (group "" (id 4daaa5e9-ca60-456a-8d21-ac07844b0c57)
+    (members
+      6ceb2e22-2c26-4a02-a519-ca7caa4cc29e
+      7a36083e-8a5a-4da7-98a2-3eb2d6373030
+      efc0b6ee-a587-4258-8332-2e46f75c0704
+    )
+  )
+  (group "" (id 57303caf-1107-4a77-a6ba-5fb02ad3d7a8)
+    (members
+      3478c00f-95e3-4cec-8b6f-91ae5654d609
+      6d976daa-3432-4cba-9156-88f624c2db86
+      b0a34b33-61e3-4f64-b34c-07071b432fea
+      e38a02d1-6612-42fb-bb94-e128594dd435
+    )
+  )
+  (group "" (id a9bac886-cb57-402d-9aaa-7d9b474bd885)
+    (members
+      186e3389-5b5a-4136-ad65-19f960182c5d
+      18701722-d67b-4a63-9285-2daf15c9b006
+      396a7da0-7d66-4381-8749-f667035e460a
+      578edf73-b6a2-4201-a4e7-e61c3f3920dd
+      aaa83592-4845-4f3a-8f85-1ba9f8fb2b8c
+      ef493082-6db1-4090-b221-fc78f2fb06cb
+    )
+  )
+  (group "" (id c3ea8b2b-14a3-46cd-9b84-d6ff783036db)
+    (members
+      35ea606f-1e84-49f1-b0a4-2f1637fbb932
+      752f6995-c6e0-49d3-9b8c-f18c8c4fcd51
+      dd36d0c8-5b1b-46a2-aefa-1ceef3e1214f
     )
   )
 )
