@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|170640218|101146526|e9f9b869-af80-4c50-8c35-3e4ec73474e5|7c99bf38-f444-4fd4-99b2-5b778bcdc285",
+        "silk_edge_clearance|170640218|101831637|e9f9b869-af80-4c50-8c35-3e4ec73474e5|1dcd6470-88e2-40ff-a976-e16432afab74",
+        "silk_edge_clearance|170640218|113052363|e9f9b869-af80-4c50-8c35-3e4ec73474e5|e50d3fd5-def5-4ff1-ad20-dbf6672feac6",
+        "silk_edge_clearance|170640218|113737474|e9f9b869-af80-4c50-8c35-3e4ec73474e5|1a0eea71-2678-4220-8040-eda835625533",
+        "silk_over_copper|160794000|73611619|42ec4278-0ccc-4696-aee6-780f347b5d24|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -123,9 +129,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.19999999999999998,
+        "min_via_annular_width": 0.049999999999999996,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.005,
@@ -441,7 +447,7 @@
       },
       {
         "bus_width": 6,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -458,7 +464,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -468,7 +474,7 @@
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.5,
         "via_diameter": 0.9,
         "via_drill": 0.4,
         "wire_width": 6
@@ -551,6 +557,14 @@
       {
         "netclass": "POWER",
         "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GNDA"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/BATT(+)"
       }
     ]
   },
