@@ -55,13 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|170640218|101146526|e9f9b869-af80-4c50-8c35-3e4ec73474e5|7c99bf38-f444-4fd4-99b2-5b778bcdc285",
-        "silk_edge_clearance|170640218|101831637|e9f9b869-af80-4c50-8c35-3e4ec73474e5|1dcd6470-88e2-40ff-a976-e16432afab74",
-        "silk_edge_clearance|170640218|113052363|e9f9b869-af80-4c50-8c35-3e4ec73474e5|e50d3fd5-def5-4ff1-ad20-dbf6672feac6",
-        "silk_edge_clearance|170640218|113737474|e9f9b869-af80-4c50-8c35-3e4ec73474e5|1a0eea71-2678-4220-8040-eda835625533",
-        "silk_over_copper|160794000|73611619|42ec4278-0ccc-4696-aee6-780f347b5d24|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -565,6 +559,10 @@
       {
         "netclass": "POWER",
         "pattern": "/BATT(+)"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/BAK_VAT"
       }
     ]
   },
