@@ -25,4 +25,5 @@
   (lib (name "PDB181-K420K-105A2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/PDB181-K420K-105A2")(options "")(descr ""))
   (lib (name "DMG2305UX-7")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DMG2305UX-7")(options "")(descr ""))
   (lib (name "MBR120VLSFT1G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MBR120VLSFT1G")(options "")(descr ""))
+  (lib (name "ConCell_GND")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CoinCell_GND/ConCell_GND.pretty")(options "")(descr ""))
 )
