@@ -4,4 +4,6 @@
 fp-info-cache
 *Gerber/*
 *backups/*
+*bom/*
+*production/*
 
