@@ -24,4 +24,6 @@
   (lib (name "MBR120VLSFT1G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MBR120VLSFT1G/MBR120VLSFT1G.kicad_sym")(options "")(descr ""))
   (lib (name "MY-2032-08_GND")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MY-2032-08/MY-2032-08_GND.kicad_sym")(options "")(descr ""))
   (lib (name "CoinCell_GND")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CoinCell_GND/CoinCell_GND.kicad_sym")(options "")(descr ""))
+  (lib (name "BH1750FVI-TR")(type "KiCad")(uri "/home/anton/Projects/KiCadLibraries/BH1750/BH1750FVI-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "TF-115")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TF-115/TF-115.kicad_sym")(options "")(descr ""))
 )
