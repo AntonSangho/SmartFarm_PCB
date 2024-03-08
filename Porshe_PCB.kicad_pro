@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|160130000|76425000|8d337fe4-a690-4596-a914-4b89614c3a67|c08bc1ac-9542-4a6f-8c0e-ef630525aba5",
+        "clearance|162145000|76425000|c08bc1ac-9542-4a6f-8c0e-ef630525aba5|4caa8530-6e79-4c9f-b917-145b852adbd1",
+        "silk_over_copper|131582380|127474318|bc21f6b8-ceec-4eca-a66a-007a5047759d|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|132274075|119350000|e10fee89-6647-45d7-a5a6-ee81e4739bcb|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|136486684|133348133|54314de8-f0d4-4285-9706-cd8fa0240fef|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -81,7 +87,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -426,7 +432,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -565,6 +571,18 @@
       {
         "netclass": "POWER",
         "pattern": "/BAK_VAT"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "DIN_1"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "DIN_2"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/VBAT(+)"
       }
     ]
   },
